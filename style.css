@@ -1,0 +1,117 @@
+* {
+  outline: none;
+}
+
+.conteinerTotal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.conteiner-tarea {
+  width: 90%;
+  display: flex;
+}
+.inputs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  width: 90%;
+  margin: 1em auto;
+  border: none;
+  border-radius: 10px;
+  border: 0.5px solid tomato;
+  border-radius: 10px;
+  height: 20px;
+}
+.text-error {
+  border: 1px solid rgba(255, 34, 255, 0.74);
+  border-radius: 10px;
+  border-radius: 10px;
+  height: 20px;
+  width: 90%;
+  margin: 1em auto;
+}
+.text-error::placeholder {
+  color: rgba(255, 34, 255, 0.9);
+  padding: 0 0.5em;
+}
+.edad {
+  width: 90%;
+  margin: 1em auto;
+  border: 0.5px solid tomato;
+  border-radius: 10px;
+  height: 20px;
+}
+.añadir {
+  width: 40%;
+  margin: 1em auto;
+  border: none;
+  border-radius: 10px;
+  background-color: tomato;
+  color: #f2f2f2;
+  height: 3em;
+  border: 0;
+  background-color: #0e4ad6;
+  color: white;
+}
+.text::placeholder {
+  padding: 0.5em;
+  color: tomato;
+}
+.edad::placeholder {
+  padding: 0.5em;
+  color: tomato;
+}
+
+/* mis tareas*/
+.add-contenedor {
+  width: 60%;
+  height: 60vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.add {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: tomato;
+  border-radius: 20px;
+  margin: 0.5em auto;
+}
+.h2-tarea {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  margin: 0.3em;
+  color: white;
+}
+
+.p-tarea {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin: 0.3em;
+  color: white;
+}
+
+.btn {
+  border-radius: 10px;
+  width: 30%;
+  height: 45px;
+  border: 0.3em solid tomato;
+  background-color: #0e4ad6;
+  color: white;
+}
