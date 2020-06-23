@@ -1,14 +1,17 @@
 * {
   outline: none;
+  padding: 0;
+  margin: 0;
 }
-
-.conteinerTotal {
+body .conteinerTotal {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 98vh;
+  background-image: url("./367502-PAXLKG-681.jpg");
+  background-size: cover;
 }
 
 .conteiner-tarea {
@@ -88,6 +91,8 @@
   background-color: tomato;
   border-radius: 20px;
   margin: 0.5em auto;
+  background-image: url("./932.jpg");
+  background-size: cover;
 }
 .h2-tarea {
   width: 80%;
@@ -95,7 +100,7 @@
   justify-content: center;
   height: 49px;
   margin: 0.3em;
-  color: white;
+  color: black;
 }
 
 .p-tarea {
@@ -104,14 +109,45 @@
   justify-content: center;
   height: 40px;
   margin: 0.3em;
-  color: white;
+  color: black;
 }
 
 .btn {
   border-radius: 10px;
   width: 50%;
   height: 45px;
-  border: 0.3em solid tomato;
+  border: none;
   background-color: #0e4ad6;
   color: white;
+}
+
+@media (max-width: 780px) {
+  .conteiner-tarea {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-contenedor {
+    height: 60vh;
+  }
+}
+@media (min-width: 780px) {
+  .add-contenedor {
+    height: 94vh;
+  }
+}
+@media (min-width: 1150px) {
+  .conteiner-tarea {
+    width: 70%;
+  }
+
+  .text,
+  .edad,
+  .añadir {
+    height: 10%;
+  }
+  .add-contenedor {
+    height: 88vh;
+  }
 }
